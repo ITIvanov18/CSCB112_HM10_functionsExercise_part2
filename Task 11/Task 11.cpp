@@ -45,6 +45,7 @@ int main() {
     char* result = deleteLast(inputString, findString);
     cout << "Резултат: " << result << endl;
 
+
     return 0;
 }
 
