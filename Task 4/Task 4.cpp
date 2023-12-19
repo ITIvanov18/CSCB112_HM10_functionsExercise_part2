@@ -21,10 +21,11 @@ char* copyString(char* str, int size) {
 
 
 int main() {
-    char input[100];
+    const int MAX_SIZE = 100;
+    char input[MAX_SIZE];
 
     cout << "Напишете символен низ (с размер до 100 символа): ";
-    cin.getline(input, 100);
+    cin.getline(input, MAX_SIZE);
 
     int size = strlen(input);
 
